@@ -28,7 +28,7 @@ public class TestZookeeper extends TestCase{
 	
 	public void testSetData() throws Exception{
 		ZkClient ZkClient = new ZkClient("10.17.1.234:2181,10.17.1.235:2181,10.17.1.236:2181");
-		ZkClient.setData("/zkUtil", "zkUtil2".getBytes());
+		ZkClient.setData("/zkUtil", "zkUtil3".getBytes());
 	}
 	
 	
